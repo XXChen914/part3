@@ -1,0 +1,53 @@
+GET http://localhost:3001/api/persons
+
+###
+GET http://localhost:3001/api/persons/1
+
+###
+DELETE http://localhost:3001/api/persons/6203206
+
+### 
+POST http://localhost:3001/api/persons
+Content-Type: application/json
+
+{
+    "name": "Lucy",
+    "number": "111-1111"
+}
+
+###
+POST http://localhost:3001/api/persons
+Content-Type: application/json
+
+{
+    "name": "Lucy"
+}
+
+### 
+POST http://localhost:3001/api/persons
+Content-Type: application/json
+
+{
+    "number": "111-1111"
+}
+
+### 
+POST http://localhost:3001/api/persons
+Content-Type: application/json
+
+{
+    "name": "new",
+    "number": "111-1111"
+}
+
+###
+PUT http://localhost:3001/api/persons/669ae9b1c17d2a2b7553baf0
+Content-Type: application/json
+
+{
+    "name": "neww",
+    "number": "111-11112"
+}
+
+###
+DELETE http://localhost:3001/api/persons/4979491

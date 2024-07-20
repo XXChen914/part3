@@ -1,0 +1,14 @@
+node_modules
+.env
+mongo.js
+dist
+dist-ssr
+*.local
+fly.toml
+Dockerfile
+.dockerignore
+build/
+.vscode/*
+!.vscode/extensions.json
+.idea
+.DS_Store
